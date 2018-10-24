@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="ArrowOS-Devices"
+           fetch="https://github.com/ArrowOS-Devices"
+           review="https://review.arrowos.net/"
+           revision="refs/heads/arrow-9.x" />
+
+  <project name="android_device_xiaomi_kenzo" path="device/xiaomi/kenzo" remote="ArrowOS-Devices" revision="arrow-9.x" />
+  <project name="android_device_xiaomi_msm8956-common" path="device/xiaomi/msm8956-common" remote="ArrowOS-Devices" revision="arrow-9.x" />
+  <project name="android_vendor_xiaomi_kenzo" path="vendor/xiaomi" remote="ArrowOS-Devices" revision="arrow-9.x" />
+  <project name="android_kernel_xiaomi_msm8956" path="kernel/xiaomi/msm8956" remote="ArrowOS-Devices" revision="arrow-9.x" />
+</manifest>
