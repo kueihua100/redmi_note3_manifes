@@ -714,7 +714,7 @@
 
   <!-- Arrow changes -->
   <include name="remove.xml" />
-  <include name="arrow.xml" />
   <include name="redmi_note3_src.xml" />
+  <include name="arrow.xml" />
   
 </manifest>
