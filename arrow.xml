@@ -15,8 +15,8 @@
     <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
-  </project>
-  -->
+  </project> -->
+  
   <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" remote="arrow" />
   <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="arrow" >
     <linkfile src="root.bp" dest="Android.bp" />
@@ -34,7 +34,8 @@
   <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="arrow" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="arrow" />
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" groups="pdk" remote="arrow" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="arrow" />
+  <!-- use patch at redmi_note3_src.xml -->
+  <!-- <project path="frameworks/base" name="android_frameworks_base" remote="arrow" /> -->
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="arrow" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="arrow" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="arrow" />
@@ -52,9 +53,8 @@
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="arrow" />
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="arrow" />
   
-  <!-- use patch at redmi_note3_src.xml
-  <project path="vendor/arrow" name="android_vendor_arrow" remote="arrow" />
-  -->
+  <!-- use patch at redmi_note3_src.xml -->
+  <!-- <project path="vendor/arrow" name="android_vendor_arrow" remote="arrow" /> -->
   
   <!-- Arrow Packages Repos -->
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="arrow" />
@@ -64,9 +64,10 @@
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="arrow" />
   <project path="packages/apps/Email" name="android_packages_apps_EMail" remote="arrow" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="arrow" />
-  <!-- to use android_packages_apps_Launcher3_pixel at redmi_note3_src.xml
-  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="arrow" />
-  -->
+  
+  <!-- to use android_packages_apps_Launcher3_pixel at redmi_note3_src.xml -->
+  <!-- <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="arrow" /> -->
+  
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="arrow" />
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="arrow" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="arrow" />
