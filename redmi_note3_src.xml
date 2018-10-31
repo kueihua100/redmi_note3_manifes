@@ -18,6 +18,8 @@
   <project name="android_frameworks_base" path="frameworks/base" remote="redmi_note3_src" revision="pie" />
   <!-- Pixel Launcher3 -->
   <project name="android_packages_apps_Launcher3_pixel" path="packages/apps/Launcher3_pixel" remote="redmi_note3_src" revision="pie" />
+  <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="redmi_note3_src" revision="pie" />
+  <project name="android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" remote="redmi_note3_src" revision="pie" />
   
   <!--  redmi note3 realted code  -->
   <project name="android_device_xiaomi_kenzo" path="device/xiaomi/kenzo" remote="redmi_note3_src" revision="pie" />
