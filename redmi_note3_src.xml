@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="redmi_note3_src"
-           fetch="https://gitlab.com/kueihua" />
+           fetch="https://github.com/kueihua100" />
   
   <!--  patch for arrow  -->
   <project name="android_build" path="build/make" remote="redmi_note3_src" revision="pie" >
