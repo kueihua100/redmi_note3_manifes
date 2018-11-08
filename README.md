@@ -1,7 +1,7 @@
 # Getting start:
 To initialize your local repository, use command:
 
-repo init -u https://gitlab.com/kueihua/redmi_note3_manifest.git -b pie
+repo init -u https://github.com/kueihua100/redmi_note3_manifest.git -b pie
 
 Then sync up:
 
